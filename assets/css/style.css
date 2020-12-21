@@ -122,6 +122,12 @@
     z-index: 1;
 }
 
+@media only screen and (max-width: 1026px) 
+{ 
+    #hide_image{ 
+      display: none; 
+    } 
+}
 
 .posts
 {
