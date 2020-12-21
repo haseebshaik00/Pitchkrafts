@@ -48,8 +48,30 @@
 
 .career_image
 {
-    width: 20%;
-    background-color: pink;
+    margin: auto;
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 40px 0px 40px 0px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.career_text
+{
+    z-index: -1;
+    position: relative;
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
+    background: linear-gradient(to left, #4A00E0, #8E2DE2);   
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    border-radius: 60px 60px 0px 0px;
+    text-align: center;
+    color: white;
+    margin-top: -50px;
 }
 
 .posts
