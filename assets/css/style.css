@@ -90,6 +90,39 @@
     border-radius: 0px 0px 100px 0px;   
 }
 
+.about_image_right
+{
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    position: relative;
+    top: 25%;
+    right: 50%;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 40px 0px 40px 0px;
+    padding: 20px;
+    padding-top: 50px;
+    z-index: 1;
+}
+
+.about_image_left
+{
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 40px 0px 40px 0px;
+    padding: 20px;
+    padding-top: 50px;
+    z-index: 1;
+}
+
+
 .posts
 {
     color: #9900ff;
