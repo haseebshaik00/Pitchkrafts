@@ -74,6 +74,22 @@
     margin-top: -50px;
 }
 
+.about_design_right
+{
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
+    background: linear-gradient(to left, #4A00E0, #8E2DE2);
+    border-radius: 100px 0px 0px 0px;   
+}
+
+.about_design_left
+{
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
+    background: linear-gradient(to left, #4A00E0, #8E2DE2);
+    border-radius: 0px 0px 100px 0px;   
+}
+
 .posts
 {
     color: #9900ff;
