@@ -1,0 +1,89 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+#parent
+{
+    position: relative;
+    width: 100%;
+}
+
+#parent img{
+    position: absolute;
+    z-index: -1;
+}
+
+.contact
+{
+    width: 70%;
+    margin: auto;
+    left: 50%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: -50px;
+    background-color: white;
+}
+
+.contact-img
+{
+    top: -10%;
+    margin: 0;
+    padding: 0;
+    z-index: 8;
+}
+
+.contact_heading
+{
+    text-align: center;
+}
+
+.contact_button
+{
+    background-color:#17202A;
+    color: white;
+    padding: 8px 40px 8px 40px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.career_image
+{
+    width: 20%;
+    background-color: pink;
+}
+
+.posts
+{
+    color: #9900ff;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.bottom-first
+{
+    bottom: -10px;
+    z-index: 10;
+    position: relative;
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
+    background: linear-gradient(to left, #4A00E0, #8E2DE2);    
+    color: white;
+    margin: auto;
+    width: 65%;
+    padding: 40px 30px 30px 30px;
+    border-radius: 40px 0px 40px 0px;
+    text-align: center;
+    margin-bottom: -100px;
+}
+
+.footer 
+{
+    width: 100%;
+    padding: 20px;
+    padding-top: 150px;
+    bottom: 0;
+    background-color: #000000;
+    color: white;
+    margin-bottom: 0;
+}
