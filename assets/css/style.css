@@ -42,7 +42,7 @@
 {
     background-color:#17202A;
     color: white;
-    padding: 10px 40px 10px 50px;
+    padding: 10px 40px 10px 52px;
     border-radius: 0px 20px 0px 20px;
     transition: transform .4s;
     border: none;
@@ -262,6 +262,11 @@
     border: 2px solid lightgrey;
 }
 
+.services_bar_div:hover img 
+{
+    border: 2px solid #8E2DE2;
+}
+
 .services_bar_image
 {
     padding-right: 5%; 
@@ -277,7 +282,7 @@
     color:  #8E2DE2;
     border-radius: 20px 60px 20px 20px;
     transition: .5s;
-    border: 1px solid lightgrey;
+    border: 3px solid lightgrey;
 }
 
 .services_bar_odd_div:hover {
@@ -288,7 +293,7 @@
     background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
     background: linear-gradient(to left, #4A00E0, #8E2DE2); 
     color: white;
-    border: 2px solid lightgrey;
+    border: 3px solid lightgrey;
 }
 
 .services_bar_image
