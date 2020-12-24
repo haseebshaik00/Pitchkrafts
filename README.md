@@ -7,3 +7,5 @@
 - add logo
 
 - extra space removal from home and about
+
+- remove processes aos, faq aos, bottom first aos

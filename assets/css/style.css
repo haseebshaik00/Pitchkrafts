@@ -97,9 +97,9 @@
 }
 
 .career_image:hover {
-    -ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05); 
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
     color:  #8E2DE2;
   }
 
@@ -120,9 +120,9 @@
 }
 
 .career_text:hover {
-    -ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05); 
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
 }
 
 .home_craft
