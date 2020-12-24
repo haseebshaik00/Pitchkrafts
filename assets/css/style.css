@@ -330,7 +330,7 @@
     transition: 0.4s;
   }
   
-  .active, .accordion:hover {
+  .accordion:hover {
     background-color: #8e2de2;
     color: white;
     border: none;
@@ -345,7 +345,7 @@
     border: none;
   }
   
-  .active:after {
+  .accordion:hover:after {
     content: "\2212";
     color: white;
   }
