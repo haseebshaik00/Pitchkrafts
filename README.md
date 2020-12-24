@@ -1,6 +1,5 @@
 # To Do
 
-- navbar highlight
 - Image carousel
 - side by side, block flip animations
 - about page text bold
