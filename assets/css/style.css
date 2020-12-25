@@ -97,7 +97,7 @@
 {
     margin: auto;
     background-color: white;
-    width: 70%;
+    width: 65%;
     text-align: center;
     border: 1px solid lightgrey;
     border-radius: 40px 0px 40px 0px;
@@ -108,9 +108,7 @@
 }
 
 .career_image:hover {
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2); 
+    
     color:  #8E2DE2;
   }
 
@@ -139,8 +137,9 @@
 .home_craft
 {
     border: 1px solid lightgrey;
-    padding: 12%;
-    width: 60%;
+    padding: 5% 7% 5% 7%;
+    width: 55%;
+    color: lightgrey;
     margin: auto;
     border-radius: 15px;
     text-align: justify;
@@ -149,25 +148,21 @@
 
 .home_craft_image
 {
-    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
-    background: linear-gradient(to left, #4A00E0, #8E2DE2);
+    background-color: lightgrey;
     padding: 10px;
     border-radius: 10px; 
     transition: .4s; 
 }
 
-.home_craft:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); 
+.home_craft:hover{
     color:  #8E2DE2;
 }
 
-.home_craft_image:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); 
-    color:  #8E2DE2;
+.home_craft:hover .home_craft_image 
+{
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
+    background: linear-gradient(to left, #4A00E0, #8E2DE2);
 }
 
 .about_design_right
@@ -380,7 +375,7 @@
     background: linear-gradient(to left, #4A00E0, #8E2DE2);    
     color: white;
     margin: auto;
-    width: 80%;
+    width: 70%;
     padding: 40px 30px 30px 30px;
     border-radius: 40px 0px 40px 0px;
     text-align: center;
@@ -389,9 +384,7 @@
 }
 
 .bottom-first:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); 
+
 }
 
 .footer 
