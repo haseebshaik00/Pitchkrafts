@@ -383,8 +383,16 @@
     transition: 0.4s;
 }
 
-.bottom-first:hover {
+.copyright
+{
+    margin: auto;
+    width: 95%;
+}
 
+.bottom_page hr
+{
+    width: 97%;
+    margin: 0px auto 15px auto;
 }
 
 .footer 
