@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+.nav-item :hover
+{
+    border-bottom: 2px solid #8e2de2;
+}
+
 #parent
 {
     position: relative;
@@ -58,16 +63,17 @@
     color: white;
     padding: 10px 40px 10px 52px;
     border-radius: 0px 20px 0px 20px;
-    transition: transform .4s;
     border: none;
+    outline: none;
 }
 
 .contact_button:hover
 {
     background-color: #8E2DE2;
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+}
+
+.contact_button:focus{
+    outline: bisque;
 }
 
 .career_hover

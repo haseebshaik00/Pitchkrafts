@@ -11,12 +11,8 @@
 
 --------------------------------------------
 *****home
-0) navbar fix
-1) add nav item hover
 2) increase size of home above text
-3) get exprert help -> contact
 4) arrow align
-%) dont increase btton size
 6) iamge carousel - 
     a) radio bottom
     b) arrow black
