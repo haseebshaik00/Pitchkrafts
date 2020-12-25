@@ -10,6 +10,11 @@
     border-bottom: 2px solid #8e2de2;
 }
 
+.dropdown :hover
+{
+    border: none;
+}
+
 #parent
 {
     position: relative;
@@ -410,20 +415,17 @@
 
 .footer_links:hover
 {
-    font-size: larger;
     color: white;
-
 }
 
 .socialmedia_links
 {
     color: #697477;
-    transition: .4s;
+    margin-left: -5px;
+    font-size: 25px;
 }
 
 .socialmedia_links:hover
 {
     color: white;
-    font-size: 20px;
-    padding: 10px;
 }

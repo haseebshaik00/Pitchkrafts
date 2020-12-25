@@ -25,6 +25,7 @@
 13) decrease we craft image size
 14) footer fut
 15) remove transformation in footer links
+16) remove nav links undeerline
 
 
 **about 
