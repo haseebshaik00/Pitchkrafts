@@ -15,7 +15,7 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-white rounded" style="margin-bottom: 0!important;">
+    <nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-white fixed-top" style="margin-bottom: 0!important;">
         <div class="container-fluid">
           <a class="navbar-brand" href="home.html"><b>PITCHKRAFTS</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +69,7 @@
                 <span><b>Our Experts can Help!</b></span>
             </div>
             <br><br><br>
-            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc9Q2srOV_sI0k7PzQcCEfiqkqMyJZPsXA-tXAuhahsNuuAlw/formResponse" method="POST">
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc9Q2srOV_sI0k7PzQcCEfiqkqMyJZPsXA-tXAuhahsNuuAlw/formResponse" method="POST" id="gform">
                 <div class="mb-3">
                     <input type="text" class="form-control" placeholder="Name" name="entry.1949980407" aria-label="Name" required>
                 </div>
@@ -91,12 +91,29 @@
     <div class="bottom_page ">
         <div data-aos="zoom-in" data-aos-duration="1000" class="bottom-first">
             <h2><b>Get the latest from <br> PitchKrafts</b></h2><br>
-            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe9UmCFs6cOr8kcQrLCNFgujMeOioXPoO9QgOI6RS1gybgByg/formResponse" method="POST">
+
+
+            <script type="text/javascript">var submitted=false;</script>
+            <!--Update the URL for thank you page on form submit -->
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+            onload="if(submitted) {window.location='http://zerobudget.club/';}"></iframe>
+            
+            
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe9UmCFs6cOr8kcQrLCNFgujMeOioXPoO9QgOI6RS1gybgByg/formResponse" 
+            method="POST" target="hidden_iframe" onsubmit="return validateForm(); ">
               <div class="input-group mb-3">
                   <input type="text" class="form-control" style="border-radius: 0px 0px 0px 20px; padding: 10px;" placeholder="Email" name="entry.749529656" aria-label="Enter your e-mail" aria-describedby="button-addon2">
                   <button class="btn btn-outline-secondary bg-dark text-white" style="border-radius: 0px 20px 0px 0px;" type="submit" id="button-addon2">Subscribe</button>
               </div>
           </form>
+          <script type="text/javascript">
+              function validateForm()
+              {
+                submitted=true;
+                return true;
+              }
+          </script>
+
         </div>
         <div class="footer mt-5">
             <div class="fluid-container">
@@ -139,7 +156,7 @@
             </div>
         </div>
     </div>
-
+      
         <script>
         AOS.init();
       </script>
