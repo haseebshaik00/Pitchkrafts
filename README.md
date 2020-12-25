@@ -6,7 +6,7 @@
 
 --------------------------------------------
 *****home
-2) increase size of home above text
+ increase size of home above text xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 4) arrow align
 
 8) increase size of tetxs
