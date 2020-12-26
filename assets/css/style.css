@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+.nav-item
+{
+    transition: .9s;
+}
+
 .nav-item :hover
 {
     border-bottom: 2px solid #8e2de2;
@@ -32,7 +37,7 @@
     margin: auto;
     left: 50%;
     padding: 20px;
-    margin-top: -180px;
+    margin-top: -12%;
     background-color: white;
 }
 
@@ -52,9 +57,7 @@
 
 .active1:hover
 {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+
 }
 
 .contact_heading
