@@ -6,7 +6,6 @@
     b) remove 
     c) circle icons
 4) mobile -> no border
-5) connects blocks to services
 6)  - services div purple white fit in phone
     - add logo
     - page redirect
