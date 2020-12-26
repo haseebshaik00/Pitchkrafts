@@ -55,9 +55,14 @@
     transition: .3s;
 }
 
+.active2
+{
+    border-bottom: 2px solid white;
+}
+
 .active1:hover
 {
-
+    border-bottom: none;
 }
 
 .contact_heading
@@ -284,12 +289,7 @@
 .services_bar_div:hover {
     background: white;
     color: #8E2DE2;
-    border: 2px solid lightgrey;
-}
-
-.services_bar_div:hover img 
-{
-    border: 2px solid #8E2DE2;
+    border: 1px solid lightgrey;
 }
 
 .services_bar_image
@@ -307,7 +307,7 @@
     color:  #8E2DE2;
     border-radius: 20px 60px 20px 20px;
     transition: .5s;
-    border: 3px solid lightgrey;
+    border: 1px solid lightgrey;
 }
 
 .services_bar_odd_div:hover {
@@ -315,7 +315,7 @@
     background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
     background: linear-gradient(to left, #4A00E0, #8E2DE2); 
     color: white;
-    border: 3px solid lightgrey;
+    border: 1px solid lightgrey;
 }
 
 .services_bar_image

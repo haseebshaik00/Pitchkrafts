@@ -4,7 +4,6 @@
 3) ** servcice 
     a) border length
     b) remove 
-    c) circle icons
 4) mobile -> no border
 6)  - services div purple white fit in phone
     - add logo
