@@ -28,6 +28,10 @@ input[type=text],[type=email],[type=number] {
 
   input[type=text]:focus {
     outline: none;
+    background-color: white;
+  }
+  input[type=text]:active {
+    outline: none;
   }
 
 #parent
