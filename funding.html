@@ -69,7 +69,11 @@
               <span><b>Are you an Entrepreneur looking for funds? We can Help!</b></span><br>
           </div>
           <br><br><br>
-          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScR07Iw1O8Y4iem7Bh7L4HjkQhtdhdjC1zDvL2erXKZ0067sg/formResponse" method="POST">
+          <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+            onload="if(submitted) {window.location='home.html';}"></iframe>
+          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScR07Iw1O8Y4iem7Bh7L4HjkQhtdhdjC1zDvL2erXKZ0067sg/formResponse" 
+          method="POST" target="hidden_iframe" onsubmit="return validateForm(); ">
               <div class="mb-3">
                   <input type="text" class="form-control" placeholder="Name" name="entry.1325132743" aria-label="Name">
               </div>
@@ -188,7 +192,8 @@
     <div class="bottom_page ">
       <div  class="bottom-first">
           <h2><b >Get free Pitch Deck <br> template</b></h2><br>
-          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe9UmCFs6cOr8kcQrLCNFgujMeOioXPoO9QgOI6RS1gybgByg/formResponse" method="POST">
+          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe9UmCFs6cOr8kcQrLCNFgujMeOioXPoO9QgOI6RS1gybgByg/formResponse" 
+          method="POST" target="hidden_iframe" onsubmit="return validateForm(); ">
             <div class="input-group mb-3">
                 <input type="email" class="form-control" style="border-radius: 0px 0px 0px 20px; padding: 10px;" placeholder="Email" name="entry.749529656" aria-label="Enter your e-mail" aria-describedby="button-addon2" required>
                 <button class="btn btn-outline-secondary bg-dark text-white" style="border-radius: 0px 20px 0px 0px;" type="submit" id="button-addon2">Subscribe</button>
@@ -237,6 +242,13 @@
       </div>
   </div>
 
+  <script type="text/javascript">
+    function validateForm()
+    {
+      submitted=true;
+      return true;
+    }
+  </script>
   <script>
     AOS.init();
   </script>

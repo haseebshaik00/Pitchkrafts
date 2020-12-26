@@ -34,6 +34,16 @@ input[type=text],[type=email],[type=number] {
     outline: none;
   }
 
+.form-control{
+    background-color: #fff;
+}
+
+.form-control :active{
+    background-color: #fff;
+    outline: none;
+    border: 2px solid white;
+}
+
 #parent
 {
     position: relative;
