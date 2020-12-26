@@ -20,6 +20,16 @@
     border: none;
 }
 
+input[type=text],[type=email],[type=number] {
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid grey;
+  }
+
+  input[type=text]:focus {
+    outline: none;
+  }
+
 #parent
 {
     position: relative;
