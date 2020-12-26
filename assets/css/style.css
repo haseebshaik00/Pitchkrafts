@@ -5,6 +5,18 @@
     padding: 0;
 }
 
+.navbar-toggler
+{
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler:focus
+{
+    outline: none !important;
+    box-shadow: none;
+}
+
 .nav-item
 {
     transition: .9s;
