@@ -313,6 +313,11 @@ input[type=text],[type=email],[type=number] {
     padding: 25px;
 }
 
+.services_bar_text
+{
+    padding-top: 50px;
+}
+
 .services_bar_div
 {
     background: #8E2DE2;
@@ -320,10 +325,37 @@ input[type=text],[type=email],[type=number] {
     background: linear-gradient(to left, #4A00E0, #8E2DE2);    
     width: 100%; 
     margin: auto; 
-    height: 160px;
+    height: 180px;
     color: white;
     border-radius: 20px 60px 20px 20px;
     transition: .5s;
+}
+
+.carousel-indicators {
+    bottom:-70px;
+  }
+
+.carousel-inner {
+    margin-bottom:50px;
+ }
+
+.carousel-indicators li
+{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+@media only screen and (max-width: 1000px) 
+{ 
+    .services_bar_div{ 
+      width: 100%; 
+      
+    } 
+    .services_bar_text
+    {
+        padding-top: 10px;
+    }
 }
 
 .services_bar_div:hover {
