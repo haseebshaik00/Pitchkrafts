@@ -2,10 +2,9 @@
 
 
 1) text size 
-2) icon home page icons 75%
-3) carousel size 50%
-4) we craft icon thode chote
 5) arrow iddle
+
+----- button alignment
 
 
 7) about us ; text after image
