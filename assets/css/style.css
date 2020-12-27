@@ -17,6 +17,14 @@
     box-shadow: none;
 }
 
+.navbar-toggler.collapsed .close-icon {
+    display: none;
+ }
+
+ .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
+ }
+
 .nav-item
 {
     transition: .9s;
@@ -314,9 +322,9 @@ input[type=text],[type=email],[type=number] {
     background: #8E2DE2;
     background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
     background: linear-gradient(to left, #4A00E0, #8E2DE2);    
-    width: 92%; 
+    width: 100%; 
     margin: auto; 
-    height: 170px;
+    height: 150px;
     color: white;
     border-radius: 20px 60px 20px 20px;
     transition: .5s;
@@ -337,7 +345,7 @@ input[type=text],[type=email],[type=number] {
 .services_bar_odd_div
 {
     color: white;
-    width: 92%; 
+    width: 100%; 
     margin: auto; 
     height: 150px;
     color:  #8E2DE2;
