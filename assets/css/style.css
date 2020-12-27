@@ -173,10 +173,6 @@ input[type=text],[type=email],[type=number] {
     transition: 0.4s;
 }
 
-.career_text:hover {
-    
-}
-
 .home_craft
 {
     border: 1px solid lightgrey;
@@ -324,7 +320,7 @@ input[type=text],[type=email],[type=number] {
     background: linear-gradient(to left, #4A00E0, #8E2DE2);    
     width: 100%; 
     margin: auto; 
-    height: 150px;
+    height: 160px;
     color: white;
     border-radius: 20px 60px 20px 20px;
     transition: .5s;
