@@ -402,11 +402,20 @@ input[type=text],[type=email],[type=number] {
     display: none;
 }
 
-@media only screen and (max-width: 1400px) 
+@media only screen and (max-width: 600px) 
 { 
-    #hide_image{ 
-     ; 
+
+    #hide_image img{ 
+        width: 350px;
+        height: 300px;
+        float: left;
     } 
+
+    .about_design_left
+    {
+        width: 45%;
+        height: 450px;
+    }
 }
 
 @media only screen and (max-width: 1000px) 
