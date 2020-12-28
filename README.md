@@ -8,3 +8,4 @@
 $) heading same 
 
 6) hide_image
+try

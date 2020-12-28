@@ -367,7 +367,8 @@ input[type=text],[type=email],[type=number] {
 @media only screen and (max-width: 1400px) 
 { 
     #hide_image{ 
-      display: none; 
+      display: none;
+      width: ; 
     } 
 }
 
