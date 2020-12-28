@@ -224,7 +224,7 @@ input[type=text],[type=email],[type=number] {
 {
     margin: auto;
     background-color: white;
-    width: 65%;
+    width: 55%;
     text-align: center;
     border: 1px solid lightgrey;
     border-radius: 40px 0px 40px 0px;
@@ -245,7 +245,7 @@ input[type=text],[type=email],[type=number] {
     background: #8E2DE2;
     background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
     background: linear-gradient(to left, #4A00E0, #8E2DE2);   
-    width: 90%;
+    width: 80%;
     height: 200px;
     margin: auto;
     border-radius: 60px 60px 0px 0px;
