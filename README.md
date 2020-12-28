@@ -1,7 +1,6 @@
 # To Do
 
-1) arrow iddle
+1) arrow
 
-3) navbar change
-
-4) image insert on home page
+2) thoda left 
+3) financial middle
