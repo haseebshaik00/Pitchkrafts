@@ -575,6 +575,7 @@ input[type=text],[type=email],[type=number] {
     background-color: #000000;
     color: white;
     margin-bottom: 0;
+    margin: auto;
 }
 
 .footer_links
@@ -595,6 +596,7 @@ input[type=text],[type=email],[type=number] {
     color: #697477;
     margin-left: -5px;
     font-size: 25px;
+    padding-right: 20px;
 }
 
 .socialmedia_links:hover
