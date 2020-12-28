@@ -51,6 +51,44 @@
     }
 }
 
+.card
+{
+    float: right;
+    position: relative;
+    display: inline-block;
+    border: none;
+}
+
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.home_craft:hover .img-top {
+    display: inline;
+}
+
+.card1
+{
+    float: right;
+    position: relative;
+    display: inline-block;
+    border: none;
+}
+
+.card1 .img-top1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.accordion:hover .img-top1 {
+    display: inline;
+}
+
 .navbar-toggler
 {
     outline: none;
