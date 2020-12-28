@@ -118,7 +118,6 @@ input[type=text],[type=email],[type=number] {
     align-items : center;
     justify-content: center;
     border: 1px solid lightgrey;
-    border-radius: 0px 40px 0px 0px ;
 }
 
 .s_img
