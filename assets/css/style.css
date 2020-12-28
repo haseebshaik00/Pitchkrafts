@@ -313,6 +313,28 @@ input[type=text],[type=email],[type=number] {
     transition: .4s; 
 }
 
+.home_craft1
+{
+    border: 1px solid lightgrey;
+    padding: 5% 7% 5% 7%;
+    width: 55%;
+    color: #8e2de2;
+    margin: auto;
+    border-radius: 15px;
+    text-align: justify;
+    transition: .4s;
+}
+
+.home_craft_image1
+{
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);
+    background: linear-gradient(to left, #4A00E0, #8E2DE2);
+    padding: 10px;
+    border-radius: 10px; 
+    transition: .4s; 
+}
+
 .home_craft:hover{
     color:  #8E2DE2;
 }
