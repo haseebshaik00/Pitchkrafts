@@ -414,6 +414,11 @@ input[type=text],[type=email],[type=number] {
     color:  #8E2DE2;
 }
 
+.about_design_left img
+{
+    margin-top: 100px;
+}
+
 #slide_size
 {
     width: 60%;
@@ -429,14 +434,15 @@ input[type=text],[type=email],[type=number] {
 
     #hide_image img{ 
         width: 400px;
-        height: 300px;
+        height: 400px;
         float: left;
+        margin-top: 0px;
     } 
 
     .about_design_left
     {
         width: 45%;
-        height: 500px;
+        height: 400px;
     }
 }
 
