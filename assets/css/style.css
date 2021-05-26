@@ -89,6 +89,11 @@
     display: inline;
 }
 
+.accordion:active1 .img-top1
+{
+    transform: rotate(180deg);
+}
+
 .navbar-toggler
 {
     outline: none;
@@ -436,7 +441,7 @@ input[type=text],[type=email],[type=number] {
         width: 400px;
         height: 400px;
         float: left;
-        margin-top: 0px;
+        margin-top: 0px ;
     } 
 
     .about_design_left
